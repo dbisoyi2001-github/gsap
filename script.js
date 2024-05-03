@@ -49,7 +49,7 @@ function page2Animation(){
         scrollTrigger: {
           trigger: ".section2",
           scroller: "body",
-          start: "top 45%",
+          start: "top 55%",
           end:"top 10%",
           scrub:2
         },
@@ -63,25 +63,25 @@ function page2Animation(){
       tl2.from(".elem.left1",{
           x:-300,
           opacity:0,
-          duration:1.5
+          duration:2
       },"anim1")
       
       tl2.from(".elem.right1",{
           x:300,
           opacity:0,
-          duration:1.5
+          duration:2
       },"anim1")
       
       tl2.from(".elem.left2",{
           x:-300,
           opacity:0,
-          duration:1.5
+          duration:2
       },"anim2")
       
       tl2.from(".elem.right2",{
           x:300,
           opacity:0,
-          duration:1.5
+          duration:2
       },"anim2")
       
 }
